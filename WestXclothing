@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>West - Streetwear Clothing</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">WEST</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#collection">Collection</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="cart-icon">
+            <span>🛒</span>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h1>Embrace the Future of Streetwear</h1>
+        <p>Discover the latest trends and timeless pieces for an elevated street style.</p>
+        <a href="#collection" class="cta-button">Shop Now</a>
+    </section>
+
+    <!-- Collection Section -->
+    <section id="collection" class="collection">
+        <h2>Featured Collection</h2>
+        <div class="product-grid">
+            <!-- Product Cards -->
+            <div class="product-card">
+                <img src="images/hoodie1.jpg" alt="Hoodie">
+                <h3>Hoodie - Black</h3>
+                <p>$79.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="images/jacket1.jpg" alt="Jacket">
+                <h3>Bomber Jacket</h3>
+                <p>$129.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="images/tshirt1.jpg" alt="T-shirt">
+                <h3>Graphic Tee</h3>
+                <p>$29.99</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About West</h2>
+        <p>West is a streetwear brand dedicated to quality, style, and modern design. We draw inspiration from urban culture and futuristic trends to bring you clothing that’s bold and expressive.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form action="#">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2023 West Clothing. All rights reserved.</p>
+        <div class="social-icons">
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+            <a href="#">Facebook</a>
+        </div>
+    </footer>
+</body>
+</html>
